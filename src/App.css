@@ -19,7 +19,7 @@ body {
 h1 {
   text-align: center;
   text-transform: capitalize;
-  margin: 2rem 0;
+  margin: 3rem 0;
   color: var(--mainWhite);
   letter-spacing: 5px;
 }
@@ -146,14 +146,18 @@ label {
   padding: 2px 5px;
 }
 .alert {
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1rem;
   color: var(--mainWhite);
   text-align: center;
   text-transform: capitalize;
-  width: 90%;
-  margin: 2rem auto 0 auto;
-  border-radius: 2px;
+  width: 80%;
+  border-radius: 5px;
   text-transform: capitalize;
+  margin: 1.4rem auto 0 auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 .alert-danger {
   background: var(--mainRed);
